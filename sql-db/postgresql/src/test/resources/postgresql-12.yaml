@@ -22,7 +22,7 @@ items:
     - name: latest
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/rhscl/postgresql-12-rhel7
+        name: registry-proxy.engineering.redhat.com/rhscl/postgresql-12-rhel7
 
 - apiVersion: apps.openshift.io/v1
   kind: DeploymentConfig
